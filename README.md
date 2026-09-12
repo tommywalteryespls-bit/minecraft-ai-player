@@ -1,6 +1,6 @@
 # Astra Minecraft AI
 
-An OpenAI-powered Minecraft controller with persistent memory, voice commands, Fabric player control, and an optional separate Mineflayer bot.
+This Minecraft Bot uses Ai to learn and complete tasks. It has a memory system and also a voicechat to communicate with the bot in game. This project was completely Ai-Assisted. I do not claim credit for any of the code in the project
 
 Use it only in worlds or servers where automation is allowed. Voice, planning, and speech use OpenAI API credits.
 
