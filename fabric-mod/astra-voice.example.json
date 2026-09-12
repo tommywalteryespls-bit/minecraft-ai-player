@@ -1,0 +1,10 @@
+{
+  "bridgePort": 8765,
+  "voicePort": 3001,
+  "token": "REPLACE_WITH_THE_64_HEX_CHARACTER_TOKEN_FROM_THE_PROJECT_INSTALLER",
+  "backend": {
+    "autoStart": false,
+    "projectDirectory": "C:/path/to/minecraft-ai-player",
+    "nodeExecutable": "C:/Program Files/nodejs/node.exe"
+  }
+}

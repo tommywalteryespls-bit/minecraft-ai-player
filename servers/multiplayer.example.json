@@ -1,0 +1,30 @@
+{
+  "id": "multiplayer-example",
+  "name": "Permitted Multiplayer Example",
+  "host": "play.example.net",
+  "port": 25565,
+  "version": "auto",
+  "auth": "microsoft",
+  "controller": "mineflayer",
+  "capabilities": {
+    "voiceChat": false,
+    "customEconomy": true,
+    "customMenus": true,
+    "textChat": true
+  },
+  "behavior": {
+    "autonomous": true,
+    "allowCombat": true,
+    "allowBlockBreaking": true,
+    "allowBlockPlacement": true,
+    "textChatFallback": true
+  },
+  "extensions": {
+    "semanticActions": {
+      "inspect_market": {
+        "type": "chat-command",
+        "command": "/ah"
+      }
+    }
+  }
+}

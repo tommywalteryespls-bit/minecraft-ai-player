@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "astra_voice",
+  "version": "${version}",
+  "name": "Astra Voice Controller",
+  "description": "Local, explicitly armed voice control for your Minecraft player.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.astra.voice.AstraVoiceClient"] },
+  "license": "MIT",
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.6"
+  }
+}

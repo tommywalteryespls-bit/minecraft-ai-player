@@ -1,0 +1,9 @@
+allowBuilds:
+  '@discordjs/opus': true
+  better-sqlite3: true
+  canvas: true
+  esbuild: true
+onlyBuiltDependencies:
+  - better-sqlite3
+  - canvas
+  - esbuild

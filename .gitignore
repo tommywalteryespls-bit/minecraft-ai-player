@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+dist/
+.env
+*.local.json
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+*.log
+.DS_Store
+coverage/
+fabric-mod/.gradle/
+fabric-mod/.tools/
+fabric-mod/build/
+fabric-mod/run/
+.reference-mindcraft/

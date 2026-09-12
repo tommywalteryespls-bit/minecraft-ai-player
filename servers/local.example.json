@@ -1,0 +1,22 @@
+{
+  "id": "local-survival",
+  "name": "Local Survival",
+  "host": "localhost",
+  "port": 25565,
+  "version": "auto",
+  "auth": "microsoft",
+  "controller": "mineflayer",
+  "capabilities": {
+    "voiceChat": true,
+    "customEconomy": false,
+    "customMenus": false,
+    "textChat": true
+  },
+  "behavior": {
+    "autonomous": true,
+    "allowCombat": true,
+    "allowBlockBreaking": true,
+    "allowBlockPlacement": true,
+    "textChatFallback": true
+  }
+}

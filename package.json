@@ -1,0 +1,45 @@
+{
+  "name": "minecraft-ai-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A persistent, server-agnostic OpenAI-powered Minecraft player",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "fabric": "node scripts/start-fabric.mjs",
+    "fabric:setup": "node scripts/setup-fabric.mjs",
+    "test": "tsc && node --test --test-isolation=none dist/tests/memory.test.js dist/tests/profiles-audio.test.js dist/tests/tools.test.js dist/tests/agent-voice.test.js dist/tests/planner-voice.test.js dist/tests/voice-manager.test.js dist/tests/voice-transport.test.js dist/tests/browser-voice.test.js dist/tests/fabric-adapter.test.js dist/tests/fabric-workflow.test.js dist/tests/fabric-sequences.test.js dist/tests/fabric-continuous.test.js dist/tests/item-goals.test.js dist/tests/base-search-evidence.test.js dist/tests/base-search.test.js dist/tests/managed-backend.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "canvas": "^3.2.3",
+    "dotenv": "^17.2.2",
+    "mineflayer": "^4.38.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "openai": "^7.10.0",
+    "pino": "^10.3.1",
+    "prismarine-block": "^1.23.0",
+    "prismarine-entity": "^2.6.0",
+    "prismarine-item": "^1.18.0",
+    "vec3": "^0.2.0",
+    "ws": "^8.21.0",
+    "zod": "^4.5.4"
+  },
+  "optionalDependencies": {
+    "mineflayer-simplevoice": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^24.3.0",
+    "@types/ws": "8.18.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}

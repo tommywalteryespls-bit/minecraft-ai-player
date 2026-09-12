@@ -1,0 +1,5 @@
+{
+  "key.category.astra_voice.controls": "Astra Voice Controller",
+  "key.astra_voice.toggle": "Arm / disarm voice control",
+  "key.astra_voice.panic": "Emergency stop and disarm"
+}

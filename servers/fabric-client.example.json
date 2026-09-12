@@ -1,0 +1,10 @@
+{
+  "id": "fabric-client",
+  "name": "My Fabric player (voice control)",
+  "host": "active-client",
+  "version": "1.21.11",
+  "controller": "fabric",
+  "capabilities": { "voiceChat": false, "textChat": true },
+  "behavior": { "autonomous": false, "allowCombat": true, "allowBlockBreaking": true, "allowBlockPlacement": true, "textChatFallback": false },
+  "reconnect": { "enabled": false, "maxAttempts": 1 }
+}
